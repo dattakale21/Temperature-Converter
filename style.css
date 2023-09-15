@@ -173,7 +173,7 @@ input:hover {
     #celsius,
     #fahrenheit,
     #kelvin {
-        margin-top: 6rem;
+        margin-top: 1rem;
         width: 90%;
         height: 8rem;
         margin-left: 2rem;
@@ -183,11 +183,12 @@ input:hover {
         height: 86%;
         padding: 0 1rem;
         padding-right: 5rem;
+        /* padding-left: 2rem; */
         margin-top: -2rem;
     }
 
     .title h1 {
-        font-size: 210%;
+        font-size: 280%;
     }
 
     .button {
