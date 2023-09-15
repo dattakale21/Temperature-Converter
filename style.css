@@ -162,12 +162,11 @@ input:hover {
         width: 90%;
         margin: 0 6rem;
         position: absolute;
-
     }
 
     .title img {
-        height: 5rem;
-        width: 5rem;
+        height: 4rem;
+        width: 3rem;
     }
 
     #celsius,
@@ -176,14 +175,13 @@ input:hover {
         margin-top: 1rem;
         width: 90%;
         height: 8rem;
-        margin-left: 2rem;
+        margin-left: 3rem;
     }
 
     .icon {
         height: 86%;
         padding: 0 1rem;
         padding-right: 5rem;
-        /* padding-left: 2rem; */
         margin-top: -2rem;
     }
 
@@ -195,4 +193,6 @@ input:hover {
         padding: 2rem;
     }
 }
+
+/* Code By - Datta Kale */
 
