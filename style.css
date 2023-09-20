@@ -109,8 +109,50 @@ input:hover {
     transition: 0.1s ease-in-out;
 }
 
+#foot{
+    position: absolute;
+    bottom:0;
+    width: 100vw;
+    /* height: 5%; */
+    background-color: black;
+}
+
+#foot h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+    letter-spacing: 0.1rem;
+    color:#fff;
+    padding:0.4rem 0;
+    word-spacing: 0.3rem;
+}
+
+.main{
+    position: absolute;
+    top:0.5rem;
+    left:1rem;
+    font-size: 150%;
+    color:rgb(47, 14, 14);
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 8000;
+    
+}
+
+/* ---------------------------- Responsive -------------------------------- */
 
 
+@media (max-width: 770px) {
+html,.container{
+    font-size: 90%;
+}
+
+#celsius{
+    font-size: 80%;
+}
+
+}
 @media (max-width: 557px) {
     .container {
         width: 90%;
@@ -146,10 +188,11 @@ input:hover {
 
     .button {
         width: 100%;
+        font-size: 40%;
     }
 
     .title h1 {
-        font-size: 200%;
+        font-size: 160%;
     }
 }
 
@@ -194,5 +237,66 @@ input:hover {
     }
 }
 
+@media (max-width: 426px) {
+    #celsius,
+    #fahrenheit,
+    #kelvin {
+        width: 90%;
+       margin-left: 2rem;
+    }
+
+    #foot h2{
+        font-size: 70%;
+    }
+}
+@media (max-width: 376px) {
+
+    .title{
+        font-size: 90%;
+    }
+
+    #celsius,
+    #fahrenheit,
+    #kelvin {
+        width: 90%;
+       margin-left: 3rem;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .title{
+        font-size: 70%;
+    }
+
+    #celsius,
+    #fahrenheit,
+    #kelvin {
+        width: 90%;
+       margin-left: 2.4rem;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .title{
+        font-size: 70%;
+    }
+
+    #celsius,
+    #fahrenheit,
+    #kelvin {
+        font-size: 80%;
+        width: 90%;
+       margin-left: 1.9rem;
+      
+    }
+}
+
+@media (max-width: 280px) {
+    .title{
+        font-size: 60%;
+    }
+}
 /* Code By - Datta Kale */
 
