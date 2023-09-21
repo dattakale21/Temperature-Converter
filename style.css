@@ -109,50 +109,53 @@ input:hover {
     transition: 0.1s ease-in-out;
 }
 
-#foot{
+#foot {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     width: 100vw;
     /* height: 5%; */
     background-color: black;
 }
 
-#foot h2{
+#foot h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 90%;
     letter-spacing: 0.1rem;
-    color:#fff;
-    padding:0.4rem 0;
+    color: #fff;
+    padding: 0.4rem 0;
     word-spacing: 0.3rem;
 }
 
-.main{
+.main {
     position: absolute;
-    top:0.5rem;
-    left:1rem;
+    top: 0.5rem;
+    left: 1rem;
     font-size: 150%;
-    color:rgb(47, 14, 14);
-    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(47, 14, 14);
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.1rem;
     font-weight: 8000;
-    
+
 }
 
 /* ---------------------------- Responsive -------------------------------- */
 
 
 @media (max-width: 770px) {
-html,.container{
-    font-size: 90%;
+
+    html,
+    .container {
+        font-size: 90%;
+    }
+
+    #celsius {
+        font-size: 80%;
+    }
+
 }
 
-#celsius{
-    font-size: 80%;
-}
-
-}
 @media (max-width: 557px) {
     .container {
         width: 90%;
@@ -196,57 +199,11 @@ html,.container{
     }
 }
 
-@media (max-width: 413px) and (max-height:913px) {
-    html {
-        font-size: 50%;
-    }
 
-    body{
-        height: 90%;
-    }
-    .container {
-        width: 90%;
-        margin: 1rem 6rem;
-        position: absolute;
-    }
-
-    .title img {
-        height: 4rem;
-        width: 3rem;
-    }
-
-    #celsius,
-    #fahrenheit,
-    #kelvin {
-        margin-top: 1rem;
-        width: 90%;
-        height: 8rem;
-        margin-left: 3rem;
-    }
-
-    .icon {
-        height: 86%;
-        padding: 0 1rem;
-        padding-right: 5rem;
-        margin-top: -2rem;
-    }
-
-    .title h1 {
-        font-size: 280%;
-    }
-
-    .button {
-        padding: 2rem;
-    }
-
-    .main{
-        font-size: 330%;
-    }
-}
 
 @media (max-width: 912px) and (max-height:412px) {
     html {
-        font-size: 50%;
+        font-size: 30%;
     }
 
     .container {
@@ -264,15 +221,140 @@ html,.container{
     #celsius,
     #fahrenheit,
     #kelvin {
+        margin-top: 3rem;
+        width: 90%;
+        height: 8rem;
+        margin-left: 3rem;
+
+    }
+
+    .container input {
+        padding: 1rem 3rem;
+        margin: 3rem 0;
+    }
+
+    ;
+
+    .icon {
+        height: 86%;
+        padding: 0 1rem;
+        padding-right: 5rem;
+        margin-top: -2rem;
+    }
+
+    .title h1 {
+        font-size: 380%;
+    }
+
+    .button {
+        padding: 2rem;
+    }
+
+    .main {
+        font-size: 330%;
+    }
+}
+
+@media (max-width: 426px) {
+
+    #celsius,
+    #fahrenheit,
+    #kelvin {
+        width: 90%;
+        margin-left: 2rem;
+    }
+
+    #foot h2 {
+        font-size: 70%;
+    }
+}
+
+
+
+
+@media (max-width: 376px) {
+
+    .title {
+        font-size: 90%;
+    }
+
+    #celsius,
+    #fahrenheit,
+    #kelvin {
+        width: 90%;
+        margin-left: 3rem;
+    }
+
+    #foot h2 {
+        font-size: 80%;
+    }
+}
+
+
+@media (max-width: 321px) {
+
+    .title {
+        font-size: 70%;
+    }
+
+    #celsius,
+    #fahrenheit,
+    #kelvin {
+        width: 90%;
+        margin-left: 2.4rem;
+    }
+
+    #foot h2 {
+        font-size: 60%;
+    }
+}
+
+
+@media (max-width: 280px) {
+    .title {
+        font-size: 60%;
+    }
+
+    #foot h2 {
+        font-size: 50%;
+        word-spacing: -0.1rem;
+    }
+}
+
+@media (max-width: 413px) and (max-height:913px) {
+    html {
+        font-size: 50%;
+    }
+
+
+    .hero{
+        height: 80vh;
+    }
+    body {
+        height: 90%;
+    }
+
+    .container {
+        width: 90%;
+        margin: 1rem 6rem;
+        position: absolute;
+        /* height: 80vh; */
+    }
+
+    .title img {
+        height: 4rem;
+        width: 3rem;
+    }
+
+    #celsius,
+    #fahrenheit,
+    #kelvin {
         margin-top: 1rem;
         width: 90%;
         height: 8rem;
         margin-left: 3rem;
     }
 
-    .container input {
-padding:0.001rem 3rem;
-    };
     .icon {
         height: 86%;
         padding: 0 1rem;
@@ -288,71 +370,25 @@ padding:0.001rem 3rem;
         padding: 2rem;
     }
 
-    .main{
-        font-size: 330%;
+    .main {
+        font-size: 270%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        left: 2rem;
+    }
+
+    #foot {
+        position: absolute;
+        bottom: 0;
+    }
+
+    #foot h2 {
+        font-size: 120%;
+        padding: 0.9rem 0;
+        word-spacing: 0.4rem;
     }
 }
 
-@media (max-width: 426px) {
-    #celsius,
-    #fahrenheit,
-    #kelvin {
-        width: 90%;
-       margin-left: 2rem;
-    }
 
-    #foot h2{
-        font-size: 70%;
-    }
-}
-@media (max-width: 376px) {
 
-    .title{
-        font-size: 90%;
-    }
 
-    #celsius,
-    #fahrenheit,
-    #kelvin {
-        width: 90%;
-       margin-left: 3rem;
-    }
-}
-
-@media (max-width: 376px) {
-
-    .title{
-        font-size: 70%;
-    }
-
-    #celsius,
-    #fahrenheit,
-    #kelvin {
-        width: 90%;
-       margin-left: 2.4rem;
-    }
-}
-
-@media (max-width: 376px) {
-
-    .title{
-        font-size: 70%;
-    }
-
-    #celsius,
-    #fahrenheit,
-    #kelvin {
-        font-size: 80%;
-        width: 90%;
-       margin-left: 1.9rem;
-      
-    }
-}
-
-@media (max-width: 280px) {
-    .title{
-        font-size: 60%;
-    }
-}
 /* Code By - Datta Kale */
-
