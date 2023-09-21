@@ -304,35 +304,25 @@ input:hover {
     }
 }
 
-@media (max-width: 321px) {
 
+
+
+@media (max-width: 376px) {
     .title {
-        font-size: 70%;
+        font-size: 90%;
     }
 
     #celsius,
     #fahrenheit,
     #kelvin {
         width: 90%;
-        margin-left: 2.4rem;
+        margin-left: 3rem;
     }
 
     #foot h2 {
-        font-size: 60%;
+        font-size: 180%;
     }
 }
-
-@media (max-width: 280px) {
-    .title {
-        font-size: 60%;
-    }
-
-    #foot h2 {
-        font-size: 50%;
-        word-spacing: -0.1rem;
-    }
-}
-
 
 @media (max-width: 413px) and (max-height:913px) {
     html {
@@ -395,7 +385,7 @@ input:hover {
     }
 
     #foot h2 {
-        font-size: 130%;
+        font-size: 120%;
         padding: 1.4rem 0;
         word-spacing: 0.4rem;
     }
@@ -405,20 +395,35 @@ input:hover {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 321px) {
+
     .title {
-        font-size: 90%;
+        font-size: 70%;
     }
 
     #celsius,
     #fahrenheit,
     #kelvin {
         width: 90%;
-        margin-left: 3rem;
+        margin-left: 2.4rem;
     }
 
     #foot h2 {
-        font-size: 80%;
+        font-size: 60%;
     }
 }
+
+
+@media (max-width: 280px) {
+    .title {
+        font-size: 60%;
+    }
+
+    #foot h2 {
+        font-size: 50%;
+        word-spacing: -0.1rem;
+    }
+}
+
+
 /* Code By - Datta Kale */
