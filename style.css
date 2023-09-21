@@ -233,10 +233,10 @@ input:hover {
         margin: 3rem 0;
     }
 
-    .button {
-        padding: 0.5rem 1rem;
-        margin-top: 1rem;
-        font-size: 20%;
+    .button button {
+        padding: 1rem 6rem;
+        margin-top: -4rem;
+        font-size: 80%;
     }
 
     .icon {
@@ -282,11 +282,11 @@ input:hover {
         margin-left: -1rem;
         font-size: 4rem;
         padding-top: -rem;
-        padding:auto auto;
+        padding: auto auto;
     }
 
-    .newcard{
-        margin-top: -12rem;
+    .newcard {
+        margin-top: -15rem;
     }
 }
 
@@ -324,10 +324,7 @@ input:hover {
     .container {
         width: 90%;
         margin: 3rem auto 0;
-        /* Adjust the margin to move the container up and add 3rem of margin from the top */
         height: auto;
-        /* position: absolute; */
-        /* Remove this line or set it to 'relative' */
     }
 
     .title img {
@@ -371,8 +368,8 @@ input:hover {
     }
 
     #foot h2 {
-        font-size: 100%;
-        padding: 0.9rem 0;
+        font-size: 130%;
+        padding: 1.4rem 0;
         word-spacing: 0.4rem;
     }
 
@@ -382,7 +379,6 @@ input:hover {
 }
 
 @media (max-width: 376px) {
-
     .title {
         font-size: 90%;
     }
