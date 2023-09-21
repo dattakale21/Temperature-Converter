@@ -224,7 +224,7 @@ input:hover {
         margin-top: 3rem;
         width: 90%;
         height: 8rem;
-        margin-left: 3rem;
+        margin-left: 6.4rem;
 
     }
 
@@ -233,7 +233,11 @@ input:hover {
         margin: 3rem 0;
     }
 
-    ;
+    .button{
+        padding:0.5rem 1rem ;
+        margin-top: 1rem;
+        font-size: 20%;
+    }
 
     .icon {
         height: 86%;
@@ -252,6 +256,29 @@ input:hover {
 
     .main {
         font-size: 330%;
+    }
+
+    #foot h2{
+        padding:1.6rem 0;
+        word-spacing: 0.8rem;
+        font-size: 180%;
+        letter-spacing: 0.4rem;
+    }
+
+    #celsius input ,
+    #fahrenheit input,
+    #kelvin input{
+        margin-top: 3rem;
+        width: 90%;
+        height: 8rem;
+        margin-left: 3rem;
+
+    }
+
+    .icon{
+        width: 90%;
+        height: 8.6rem;
+        margin-left: -1rem;
     }
 }
 
@@ -340,7 +367,7 @@ input:hover {
     }
 
     .newcard{
-        margin-top: -51rem;
+        margin-top: -3rem;
     }
 }
 @media (max-width: 376px) {
