@@ -233,8 +233,8 @@ input:hover {
         margin: 3rem 0;
     }
 
-    .button{
-        padding:0.5rem 1rem ;
+    .button {
+        padding: 0.5rem 1rem;
         margin-top: 1rem;
         font-size: 20%;
     }
@@ -258,27 +258,35 @@ input:hover {
         font-size: 330%;
     }
 
-    #foot h2{
-        padding:1.6rem 0;
+    #foot h2 {
+        padding: 1.6rem 0;
         word-spacing: 0.8rem;
         font-size: 180%;
         letter-spacing: 0.4rem;
     }
 
-    #celsius input ,
+    #celsius input,
     #fahrenheit input,
-    #kelvin input{
+    #kelvin input {
         margin-top: 3rem;
         width: 90%;
-        height: 8rem;
+        height: 6rem;
         margin-left: 3rem;
 
     }
 
-    .icon{
+    .icon {
         width: 90%;
-        height: 8.6rem;
+        height: 6.6rem;
+        margin-top: 0.2rem;
         margin-left: -1rem;
+        font-size: 4rem;
+        padding-top: -rem;
+        padding:auto auto;
+    }
+
+    .newcard{
+        margin-top: -12rem;
     }
 }
 
@@ -315,9 +323,11 @@ input:hover {
 
     .container {
         width: 90%;
-        margin: 3rem auto 0; /* Adjust the margin to move the container up and add 3rem of margin from the top */
+        margin: 3rem auto 0;
+        /* Adjust the margin to move the container up and add 3rem of margin from the top */
         height: auto;
-        /* position: absolute; */ /* Remove this line or set it to 'relative' */
+        /* position: absolute; */
+        /* Remove this line or set it to 'relative' */
     }
 
     .title img {
@@ -361,15 +371,16 @@ input:hover {
     }
 
     #foot h2 {
-        font-size: 120%;
+        font-size: 100%;
         padding: 0.9rem 0;
         word-spacing: 0.4rem;
     }
 
-    .newcard{
-        margin-top: -3rem;
+    .newcard {
+        margin-top: 16rem;
     }
 }
+
 @media (max-width: 376px) {
 
     .title {
