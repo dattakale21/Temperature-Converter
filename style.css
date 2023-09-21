@@ -333,6 +333,7 @@ input:hover {
     }
 }
 
+
 @media (max-width: 413px) and (max-height:913px) {
     html {
         font-size: 50%;
@@ -420,5 +421,4 @@ input:hover {
         font-size: 80%;
     }
 }
-
 /* Code By - Datta Kale */
