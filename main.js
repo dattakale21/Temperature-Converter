@@ -1,4 +1,3 @@
-
 let celsiusInput = document.querySelector('#celsius > input')
 let fahrenheitInput = document.querySelector('#fahrenheit > input')
 let kelvinInput = document.querySelector('#kelvin > input')
@@ -47,6 +46,6 @@ btn.addEventListener('click', () => {                 // after clicking action t
     celsiusInput.value = ""
     fahrenheitInput.value = ""
     kelvinInput.value = ""
-})
+});
 
 // Code By - Datta Kale
