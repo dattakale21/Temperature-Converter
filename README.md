@@ -1,5 +1,6 @@
 
 # Temperature-Converter
+![Screenshot](temp.png)
 
 This is temperature Converter website which will convert the temperature in different units.
 
